@@ -1,0 +1,31 @@
+{
+  "name": "sessionexpress",
+  "version": "1.0.0",
+  "description": "Express Sesssion Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-hbs": "^1.0.4",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "path": "*"
+  },
+  "keywords": [
+    "Express",
+    "Node.js",
+    "Session"
+  ],
+  "author": "Krunal Lathiya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
